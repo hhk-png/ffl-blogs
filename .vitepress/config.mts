@@ -7,6 +7,7 @@ const base = '/ffl-blogs'
 export default defineConfig({
   outDir: './dist',
   base,
+  srcExclude: ['README.md'],
   // markdown: {
   //   toc: {
   //     level: [1, 2, 3, 4, 5, 6]
